@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    margin: 0px;
+}
+body{
+    background-color: grey;
+}
+.nav{
+    background-color: rgb(9, 69, 71);
+    height: 30px;
+    width: 1006pX;
+    position: sticky;
+    top: 0px;
+}
+.homebt{
+   border-radius: 10px;
+   margin-left: 50px;
+   width: 50px;
+   height: 20px;
+   margin-top: 5px;
+}
+.homebt a {
+    text-decoration: none;
+    color: teal;
+    text-align: center;
+text-align: center;
+font-size: 15px;
+   
+}
+.homebt a:hover {
+    text-decoration: none;
+    color: green;
+    text-align: center;
+    font-size: 10px;
+}
+.picture{
+    background-color: rgba(179, 147, 67, 0.788);
+    width: 1006pX;
+    height: 20px;
+    position: fixed;
+    
+
+   
+}
+.row{
+    display: flex;
+   
+    margin-top: 20px;
+}
+
+
+.one{
+    background-color: ghostwhite;
+    height: 600px;
+    width: 305px;
+margin-left: px;
+
+background-image: url(image/images\ \(35\).jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;      
+}
+.nam{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: black;
+    font-size: 30px;
+    color: green;
+    background-color: ghostwhite;
+    border: 2px thin green;
+    /* can change to solid */
+    }
+.one h3{
+        text-align: center;
+        font-style: normal;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+        color:green;
+        padding-top: 150px;
+        margin-left: 20px;
+       outline-style: solid 21px RED;
+        
+}
+/* hr{
+    color: RED;
+} */
+marquee{
+    color: ghostwhite;
+    /* color: green; */
+}
+.two{
+    /* background-color: white; */
+    height: 600px;
+    width: 720px;
+    /* remove this if you dont want background-color: for mother and father; */
+    background-color: gainsboro;
+    /* border: 2px solid orange; */
+    
+}
+
+.mother{
+    display: flex;
+}
+.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve{
+    background-color: ghostwhite;
+    height: 130px;
+    width: 130px;
+margin-left: 30px;
+margin-right: 15px;
+margin-top: 20px;
+}
+.father{
+    display: flex;
+}
+ .on1,.on2,.on3,.on4,.on5,.on6,.on7,.on8,.on9,.on10{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+     margin-left: 15px;
+    margin-top: 15px; 
+}
+.on1,.on2,.on3,.on4,.on5,.on6,.on7,.on8,.on9,.on10, h2, a{
+    text-align: center;
+    text-decoration: none;
+    cursor: progress;
+    font-size: 15px;
+    padding-top: 5px;
+   /* color: blue; */
+   
+    }
+    .on1,h2,.on2,.on3,.on4,.on5,.on6,.on7,.on8,.on9,.on10, a:hover{
+    color: cadetblue;
+    }
+    .on1,h2,.on2,.on3,.on4,.on5,.on6,.on7,.on8,.on9,.on10, span{
+color: ghostwhite;
+    }
+    .on1,h2,.on2,.on3,.on4,.on5,.on6,.on7,.on8,.on9,.on10, span:hover{
+        color: green;
+    }
+ .pic img{
+margin-left: 30px;
+margin-top: 6px;
+width: 654px;
+height: 200px;
+} 
+.posi1{
+    display: flex;
+}
+.date{
+    margin-left: 210px;
+}
+input{ 
+margin-left: 20px;
+margin-right: 0px;
+margin-top: 15px;
+height: 20px;
+/* background: transparent; */
+color: bl;
+border: grey 2px solid;
+outline: none;
+}
+
+.footer{
+    height: 200px;
+    width: 1006pX;
+    background: linear-gradient(to right,black,teal) ;
+    margin-top: 10px;
+    display: flex;
+  
+    }
+    .foote{
+       display: flex;
+     
+    }
+    .foot1{
+        height: 150px;
+        width: 200px;
+        /* background-color: white; */
+        margin-left: 100px;
+        color: orange;
+        margin-top: 10px;
+    }
+   
+
+    .foot1 img{
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .foot1 li{
+        list-style-type: none;
+        color: ghostwhite;
+    }
+
+    .foot2 h2{
+       text-align: left;
+        color: orange;
+        padding-top: 95px;
+    }
+    .foot2{
+        height: 150px;
+        width: 200px;
+        /* background-color: white; */
+        margin-left: 40px;
+        color: orange;
+    }
+    .foot2 li{
+        list-style-type: none;
+        color: ghostwhite;
+    }
+   .foot2, li, a{
+       color: ghostwhite;
+       text-decoration: none;
+   }.foot2, li, a:hover{
+    color: red;
+    text-decoration: none;
+}
+.foot3 h2{
+    text-align: left;
+     color: orange;
+     padding-top: 95px;
+ }
+ .foot3{
+     height: 150px;
+     width: 200px;
+     /* background-color: white; */
+     margin-left: 0px;
+     color: orange;
+ }
+ .foot3 li{
+     list-style-type: none;
+     color: ghostwhite;
+ }
+.foot3, li, a{
+    color: ghostwhite;
+    text-decoration: none;
+}.foot3, li, a:hover{
+ color: crimson;
+ text-decoration: none;
+ margin-left: 10PX;
+}
+.foot4{
+    height: 150px;
+    width: 200px;
+    /* background-color: ghostwhite; */
+    margin-top: 10px;
+}
+.foot4 img{
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+}
+.foots{
+    height: 25px;
+    width: 1006px;
+    background-color: green;
+    color: ghostwhite;
+    text-align: center;
+    
+}

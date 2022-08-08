@@ -1,0 +1,244 @@
+*{
+    padding: 0px;
+    box-sizing:border-box ;
+    margin: 0px;
+    border: none;
+}
+body{
+    background-color: cadetblue;
+    }
+.nav{
+  background-color: burlywood;
+    height: 40px;
+    width: 1010px;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    /* border-bottom: ghostwhite 2px solid; */
+    
+}
+.nav button{
+    margin-top: 10px;
+    width: 50px;
+    height: 20px;
+    margin-left: 15px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: green;
+}
+    .port button{
+    margin-top: 10px;
+    width: 125px;
+    margin-left: 350px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+   
+} 
+.sport button{
+    margin-top: 10px;
+    width: 125px;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+  
+}
+.calender button{
+    margin-top: 10px;
+    width: 125px;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.EXAMTABLE button{
+    margin-top: 10px;
+    width: 125px;
+    margin-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nav button,.port button,.sport button,.calender button,.EXAMTABLE button, a{
+text-decoration: none;
+ color: darkcyan; 
+cursor:progress;
+background-color: olivedrab; 
+
+}
+.nav button,.port button,.sport button,.calender button,.EXAMTABLE button, a:hover{
+font-size: 13px;
+}
+.main{
+    display: flex;
+}
+.one{
+    background-image: url(image/IMG-20220613-WA0001.jpg);
+    background-position: top;
+    height: 500px;
+    width: 300px;
+    border-bottom-right-radius: 120PX;
+    color: ghostwhite;
+    text-align: center;
+    padding-top: 20px;
+    border: solid 2px ghostwhite;
+ 
+}
+.group{
+    background:linear-gradient(to left,olivedrab,olive);
+    width:700px ;
+    height:500px ;
+    margin-left: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: ghostwhite 2px solid;
+   
+}
+.father{
+    display: flex;
+    margin-top: 20px;
+}
+.two,.five,.eight{
+    height: 150px;
+    width: 200px;
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 150px;
+    /* opacity: 0.7; */
+}
+.three,.four,.six,.seven,.nine,.ten{
+    height: 150px;
+    width: 200px;
+    background-color: black;
+    margin-left: 40px;
+    border-radius: 150px;
+    /* opacity: 0.7; */
+
+
+}
+
+
+.mother,.son{
+    display: flex;
+    margin-top: 10px;
+}
+
+.ayo,.bayo,.cayo,.dayo,.eayo,.fayo,.gayo,.hayo,.iyo,.jayo{
+    text-align: center;
+    padding-top: 35px;
+    height: 150px;
+    width: 160px;
+    background-color: ghostwhite;
+    margin-left: 20px;
+    border-radius: 150px;
+    /* opacity: 0.7; */
+}
+/* .ayo{
+text-align: center;
+padding-top: 20px;
+} */
+.footer{
+    height: 200px;
+    width: 1006pX;
+    /* background-color: rgb(9, 69, 71); */
+    background: linear-gradient(to right,black,teal);
+    margin-top: 10px;
+    display: flex;
+  
+    }
+    .foote{
+       display: flex;
+     
+    }
+    .foot1{
+        height: 150px;
+        width: 200px;
+        /* background-color: white; */
+        margin-left: 100px;
+        color: orange;
+        margin-top: 10px;
+    }
+   
+
+    .foot1 img{
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .foot1 li{
+        list-style-type: none;
+        color: ghostwhite;
+    }
+
+    .foot2 h2{
+       text-align: left;
+        color: orange;
+        padding-top: 95px;
+        font-size: small;
+    }
+    .foot2 {
+        height: 150px;
+        width: 200px;
+        /* background-color: white; */
+        margin-left: 40px;
+        color: orange;
+       
+    }
+    .foot2 li{
+        list-style-type: none;
+        color: ghostwhite;
+    }
+   .foot2, li, a{
+       color: ghostwhite;
+       text-decoration: none;
+
+   }.foot2, li, a:hover{
+    color: red;
+    text-decoration: none;
+}
+.foot3 h2{
+    text-align: left;
+     color: orange;
+     padding-top: 95px;
+     font-size: small;
+ }
+ .foot3{
+     height: 150px;
+     width: 200px;
+     /* background-color: white; */
+     margin-left: 0px;
+     color: orange;
+ }
+ .foot3 li{
+     list-style-type: none;
+     color: ghostwhite;
+    
+ }
+.foot3, li, a{
+    color: ghostwhite;
+    text-decoration: none;
+    background: none;
+}.foot3, li, a:hover{
+ color: red;
+ text-decoration: none;
+padding-left: 10px;
+}
+.foot4{
+    height: 150px;
+    width: 200px;
+    /* background-color: ghostwhite; */
+    margin-top: 10px;
+}
+.foot4 img{
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+}
+.foots{
+    height: 25px;
+    width: 1006px;
+    background-color: green;
+    color: ghostwhite;
+    text-align: center;
+    
+}

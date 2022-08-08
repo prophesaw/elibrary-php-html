@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+body{
+    background-color: aliceblue;
+}
+.nav{background-color: rgba(15, 13, 34, 0.808);
+    height: 70px;
+    width: 1020px;
+    display: flex;
+    position: sticky;
+    top: 0px;
+
+    
+}
+.mail a,h5{
+    color: orange;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+
+}
+.navbox{
+    margin-left: 380px;
+    margin-top: 10px;
+    background-color: rgb(3, 107, 141);
+    padding: 15px ; 
+    height: 50px;
+    width: 450px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.navbox a{
+    color: ghostwhite;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30px; 
+}
+.navbox a:hover{
+    color: rgb(3, 107, 141);
+    text-decoration: none;
+    text-align: center;
+    /* padding-left: 20px; */
+    background-color: ghostwhite;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 200px;
+    font-size: 18px;
+}
+.logo{
+display: flex;
+
+}
+.image img{
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.h3{
+    margin-top: 50px;
+    text-align: center;
+}
+.sport{
+padding-left: 500px;
+font-family: 'Times New Roman', Times, serif ;
+font-size: 30px;
+color: red;
+
+}
+.father{
+height: 400px;
+width: 1020px;
+background-color: gainsboro;
+margin-top: 0px;
+}
+.headline{
+    background-color: rgba(15, 13, 34, 0.808);
+    width: 500px;
+    height: 40px;
+    border-bottom-right-radius: 10px;
+    color: ghostwhite;
+}
+
+/* .footer{
+    background-color: rgb(3, 107, 141);;
+width: auto;
+height: 100px;
+border: solid ghostwhite 2px;
+
+} */
+.footer{
+    height: 200px;
+    width: 1020pX;
+    /* background-color: rgb(9, 69, 71); */
+    background: linear-gradient(to right,black,teal);
+    margin-top: 10px;
+    display: flex;
+  
+    }
+    .foote{
+       display: flex;
+     
+    }
+    .foot1{
+        height: 150px;
+        width: 200px;
+        /* background-color: white; */
+        margin-left: 100px;
+        color: orange;
+        margin-top: 10px;
+    }
+   
+
+    .foot1 img{
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .foot1 li{
+        list-style-type: none;
+        color: ghostwhite;
+    }
+
+    .foot2 h2{
+       text-align: left;
+        color: orange;
+        padding-top: 95px;
+        font-size: small;
+        padding-left: 10px;
+    }
+    .foot2 {
+        height: 150px;
+        width: 200px;
+        /* background-color: white; */
+        margin-left: 40px;
+        color: orange;
+       
+    }
+    .foot2 li{
+        list-style-type: none;
+        color: ghostwhite;
+    }
+   .foot2, li, a{
+       color: ghostwhite;
+       text-decoration: none;
+
+   }.foot2, li, a:hover{
+    color: red;
+    text-decoration: none;
+}
+.foot3 h2{
+    text-align: left;
+     color: orange;
+     padding-top: 95px;
+     font-size: small;
+     padding-left: 10px;
+ }
+ .foot3{
+     height: 150px;
+     width: 200px;
+     /* background-color: white; */
+     margin-left: 0px;
+     color: orange;
+ }
+ .foot3 li{
+     list-style-type: none;
+     color: ghostwhite;
+    
+ }
+.foot3, li, a{
+    color: ghostwhite;
+    text-decoration: none;
+    background: none;
+}.foot3, li, a:hover{
+ color: red;
+ text-decoration: none;
+padding-left: 10px;
+}
+.foot4{
+    height: 150px;
+    width: 200px;
+    /* background-color: ghostwhite; */
+    margin-top: 10px;
+}
+.foot4 img{
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+}
+.foots{
+    height: 25px;
+    width: 1020px;
+    background-color: green;
+    color: ghostwhite;
+    text-align: center;
+    
+}
